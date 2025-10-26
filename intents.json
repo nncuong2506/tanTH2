@@ -1,0 +1,162 @@
+{
+  "intents": [
+    {
+      "tag": "chao_hoi",
+      "patterns": [
+        "Xin chào",
+        "Chào bạn",
+        "Chào",
+        "Hello",
+        "Hi",
+        "Hey",
+        "Chào chatbot",
+        "Rất vui được gặp bạn"
+      ],
+      "responses": [
+        "Chào bạn! Mình là trợ lý ảo giúp bạn học Tin học 7.",
+        "Xin chào! Hôm nay bạn muốn thực hành phần nào trong bài Khám phá trình quản lí hệ thống tệp?",
+        "Hello! Mình có thể hướng dẫn bạn cách sử dụng trình quản lí tệp nhé!"
+      ]
+    },
+    {
+      "tag": "tam_biet",
+      "patterns": [
+        "Tạm biệt",
+        "Chào tạm biệt",
+        "Bye",
+        "Hẹn gặp lại",
+        "Tôi đi đây"
+      ],
+      "responses": [
+        "Tạm biệt nhé! Hẹn gặp lại trong buổi học Tin học sau!",
+        "Chúc bạn học tốt và thực hành thành công!",
+        "Bye bye! Khi cần ôn bài cứ quay lại nhé!"
+      ]
+    },
+    {
+      "tag": "gioi_thieu_bai",
+      "patterns": [
+        "Bài thực hành khám phá trình quản lí hệ thống tệp là gì",
+        "Bài 5 nói về nội dung gì",
+        "Mục tiêu của bài 5 là gì",
+        "Học bài khám phá trình quản lí hệ thống tệp để làm gì"
+      ],
+      "responses": [
+        "Bài thực hành giúp bạn làm quen với trình quản lí tệp trong máy tính, biết cách xem, sắp xếp, tạo, sao chép, di chuyển và xóa tệp hoặc thư mục.",
+        "Bài 5 giúp rèn luyện kĩ năng thao tác với tệp và thư mục trong File Explorer – công cụ quản lí dữ liệu của Windows."
+      ]
+    },
+    {
+      "tag": "trinh_quan_ly_tep",
+      "patterns": [
+        "Trình quản lí tệp là gì",
+        "File Explorer là gì",
+        "Chức năng của trình quản lí tệp",
+        "Dùng trình quản lí tệp để làm gì"
+      ],
+      "responses": [
+        "Trình quản lí tệp (File Explorer) là công cụ giúp người dùng xem, mở, tạo, di chuyển, sao chép và xóa các tệp hoặc thư mục trong máy tính.",
+        "File Explorer giúp sắp xếp và quản lí dữ liệu trên các ổ đĩa một cách trực quan bằng biểu tượng, tên và đường dẫn."
+      ]
+    },
+    {
+      "tag": "cay_thu_muc",
+      "patterns": [
+        "Cấu trúc cây thư mục là gì",
+        "Tại sao gọi là cây thư mục",
+        "Cấu trúc phân cấp trong File Explorer là gì"
+      ],
+      "responses": [
+        "Cấu trúc cây thư mục thể hiện mối quan hệ phân cấp giữa các thư mục và tệp – giống như cây có nhánh con. Mỗi thư mục có thể chứa nhiều thư mục hoặc tệp khác.",
+        "Gọi là cây thư mục vì thư mục gốc nằm ở trên, các thư mục con tỏa ra như các nhánh cây."
+      ]
+    },
+    {
+      "tag": "tep_va_thu_muc",
+      "patterns": [
+        "Tệp và thư mục khác nhau thế nào",
+        "Phân biệt tệp và thư mục",
+        "Thư mục dùng để làm gì",
+        "Tệp tin là gì"
+      ],
+      "responses": [
+        "Tệp là đơn vị lưu trữ dữ liệu (văn bản, hình ảnh, video,…). Thư mục là nơi chứa các tệp hoặc thư mục con để sắp xếp dữ liệu dễ quản lí hơn.",
+        "Thư mục giống như chiếc hộp chứa các tệp có liên quan, giúp người dùng tổ chức dữ liệu khoa học."
+      ]
+    },
+    {
+      "tag": "duong_dan",
+      "patterns": [
+        "Đường dẫn tệp là gì",
+        "Làm sao biết tệp nằm ở đâu",
+        "Đường dẫn của tệp có ý nghĩa gì"
+      ],
+      "responses": [
+        "Đường dẫn (path) cho biết vị trí lưu trữ của tệp hoặc thư mục trong hệ thống. Ví dụ: C:\\Users\\HOCSINH\\Documents\\BaiTap.docx.",
+        "Đường dẫn giúp xác định chính xác nơi lưu tệp trong cây thư mục."
+      ]
+    },
+    {
+      "tag": "thao_tac_co_ban",
+      "patterns": [
+        "Những thao tác cơ bản trong File Explorer là gì",
+        "Khi thực hành cần làm những gì",
+        "Nêu các thao tác thường dùng trong trình quản lí tệp"
+      ],
+      "responses": [
+        "Các thao tác cơ bản gồm: mở, tạo mới, sao chép, di chuyển, đổi tên, xóa và tìm kiếm tệp hoặc thư mục.",
+        "Khi thực hành, bạn sẽ học cách xem nội dung, sắp xếp tệp theo tên, kích thước, hoặc ngày tạo."
+      ]
+    },
+    {
+      "tag": "tao_sao_chep_di_chuyen",
+      "patterns": [
+        "Cách tạo thư mục mới",
+        "Làm sao để sao chép tệp",
+        "Di chuyển tệp khác gì sao chép tệp",
+        "Thao tác để tạo thư mục hoặc sao chép tệp"
+      ],
+      "responses": [
+        "Để tạo thư mục mới, chọn **Home → New folder** hoặc nhấn **Ctrl + Shift + N**.",
+        "Sao chép tệp: chọn tệp → nhấn **Ctrl + C** → chọn nơi cần dán → **Ctrl + V**. Di chuyển tệp thì dùng **Ctrl + X** thay cho **Ctrl + C**."
+      ]
+    },
+    {
+      "tag": "doi_ten_va_xoa",
+      "patterns": [
+        "Cách đổi tên tệp",
+        "Làm sao để xóa tệp",
+        "Tệp bị xóa sẽ đi đâu",
+        "Có thể khôi phục tệp đã xóa không"
+      ],
+      "responses": [
+        "Để đổi tên tệp, nhấn chuột phải chọn **Rename** hoặc nhấn **F2**.",
+        "Khi xóa tệp, nó được chuyển vào **Thùng rác (Recycle Bin)** và có thể khôi phục lại nếu chưa bị xóa vĩnh viễn."
+      ]
+    },
+    {
+      "tag": "tim_kiem_sap_xep",
+      "patterns": [
+        "Cách tìm tệp trong File Explorer",
+        "Tìm kiếm tệp bằng cách nào",
+        "Sắp xếp tệp theo tên hoặc ngày tạo thế nào"
+      ],
+      "responses": [
+        "Để tìm tệp, nhập tên tệp vào ô **Search** ở góc trên bên phải của cửa sổ File Explorer.",
+        "Bạn có thể sắp xếp tệp bằng cách nhấn chuột phải chọn **Sort by → Name / Date modified / Size**."
+      ]
+    },
+    {
+      "tag": "meo_thuc_hanh",
+      "patterns": [
+        "Làm sao thực hành hiệu quả",
+        "Mẹo khi sử dụng File Explorer",
+        "Cách quản lí tệp nhanh và gọn"
+      ],
+      "responses": [
+        "Đặt tên thư mục rõ ràng, lưu bài thực hành vào cùng một thư mục, và kiểm tra lại kết quả sau mỗi thao tác.",
+        "Hãy dùng phím tắt như **Ctrl + C**, **Ctrl + V**, **Ctrl + X** để thao tác nhanh hơn trong quá trình thực hành."
+      ]
+    }
+  ]
+}
